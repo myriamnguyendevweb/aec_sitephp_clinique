@@ -1,0 +1,77 @@
+body {
+    background-color: #be97df;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    font-weight: bold;
+
+
+}
+
+
+h1, h2 {
+    padding-left: 5px;
+    color: white;
+}
+
+label {
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-envoyer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    max-width: 200px;
+    margin:auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    padding:2px;
+    margin:5px;
+}
+
+.card img {
+    width:100%;
+}
+
+form {
+    margin: 20px auto;
+}
+
+form div {
+    margin: 10px;
+}
+
+form label {
+    display: block;
+    
+} 
+
+form input {
+    max-width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+}
+
